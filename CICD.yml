@@ -21,7 +21,7 @@ steps:
   uses: actions/checkout@v3
 
 - name: Set up Docker Buildx
-  uses: docker/setup-buildx
+  uses: docker/setup-buildx@v4
       with:
         python-version: '3.10.9'
 
